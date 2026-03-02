@@ -1,0 +1,76 @@
+{
+  "url": "https://rahulshettyacademy.com/locatorspractice/",
+  "inputs": [
+    {
+      "id": null,
+      "name": null,
+      "type": "text"
+    },
+    {
+      "id": null,
+      "name": null,
+      "type": "text"
+    },
+    {
+      "id": null,
+      "name": null,
+      "type": "text"
+    },
+    {
+      "id": "inputUsername",
+      "name": null,
+      "type": "text"
+    },
+    {
+      "id": null,
+      "name": "inputPassword",
+      "type": "password"
+    },
+    {
+      "id": "chkboxOne",
+      "name": "chkboxOne",
+      "type": "checkbox"
+    },
+    {
+      "id": "chkboxTwo",
+      "name": "chkboxTwo",
+      "type": "checkbox"
+    }
+  ],
+  "buttons": [
+    {
+      "text": "",
+      "id": null
+    },
+    {
+      "text": "",
+      "id": null
+    },
+    {
+      "text": "SIGN IN",
+      "id": null
+    },
+    {
+      "text": "",
+      "id": "visitUSOne"
+    },
+    {
+      "text": "VISIT US",
+      "id": "visitUsTwo"
+    }
+  ],
+  "links": [
+    {
+      "text": "terms",
+      "href": "#"
+    },
+    {
+      "text": "privacy policy",
+      "href": "#"
+    },
+    {
+      "text": "Forgot your password?",
+      "href": "#"
+    }
+  ]
+}
