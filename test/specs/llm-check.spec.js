@@ -1,4 +1,4 @@
-const { askLLM } = require('../../ai/llm/ollama.client');
+import { askLLM } from '../../ai/llm/ollama.client.js';
 
 describe('LLM Integration Check', () => {
 

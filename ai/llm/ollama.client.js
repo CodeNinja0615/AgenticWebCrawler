@@ -1,6 +1,6 @@
-const axios = require('axios');
+import axios from 'axios';
 
-async function askLLM(prompt) {
+export async function askLLM(prompt) {
     try {
         const response = await axios.post('http://localhost:11434/api/generate', {
             model: 'deepseek-coder:1.3b',
@@ -14,5 +14,3 @@ async function askLLM(prompt) {
         return null;
     }
 }
-
-module.exports = { askLLM };

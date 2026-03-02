@@ -51,12 +51,12 @@ export const config = {
     //
     capabilities: [{
         browserName: 'chrome'
-    }, {
-        browserName: 'firefox'
-    }, {
-        browserName: 'safari'
-    }, {
-        browserName: 'MicrosoftEdge'
+    // }, {
+    //     browserName: 'firefox'
+    // }, {
+    //     browserName: 'safari'
+    // }, {
+    //     browserName: 'MicrosoftEdge'
     }],
 
     //
@@ -188,7 +188,7 @@ export const config = {
      * @param {string} cid worker id (e.g. 0-0)
      */
     beforeSession: function (config, capabilities, specs, cid) {
-        require('./ai/orchestrator');
+        // require('./ai/orchestrator');
     },
     /**
      * Gets executed before test execution begins. At this point you can access to all global
